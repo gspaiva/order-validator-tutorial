@@ -1,0 +1,20 @@
+2019-09-25 00:25:58,058 INFO o.s.b.StartupInfoLogger [main] Starting OrdervalidatorApplication on gabriel-Aspire-E5-574G with PID 25056 (/home/gabriel/Documents/development/spring-boot/order-validator/target/classes started by gabriel in /home/gabriel/Documents/development/spring-boot/order-validator)
+2019-09-25 00:25:58,114 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-09-25 00:25:59,539 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2019-09-25 00:25:59,566 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-25 00:25:59,583 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2019-09-25 00:25:59,584 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25 00:25:59,704 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-09-25 00:25:59,704 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1500 ms
+2019-09-25 00:26:00,106 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-25 00:26:00,649 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2019-09-25 00:26:00,707 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-25 00:26:00,734 INFO o.s.b.StartupInfoLogger [main] Started OrdervalidatorApplication in 3.426 seconds (JVM running for 4.79)
+2019-09-25 00:26:13,730 INFO b.c.g.p.o.o.s.OrderValidatorService [DefaultMessageListenerContainer-1] Order received =12398109283
+2019-09-25 00:26:13,821 INFO c.a.s.j.SQSMessageProducer [DefaultMessageListenerContainer-1] Message sent to SQS with SQS-assigned messageId: 2fbd4632-2b00-4690-a304-aa69030b49b1
+2019-09-25 00:26:14,055 INFO b.c.g.p.o.o.s.OrderValidatorService [DefaultMessageListenerContainer-1] Finishing order:{"status": "ORDER_VALID", id:12398109283}
+2019-09-25 00:38:37,256 INFO o.s.s.c.ExecutorConfigurationSupport [Thread-2] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-25 00:38:37,260 INFO c.a.s.j.SQSMessageConsumer [DefaultMessageListenerContainer-1] Shutting down ConsumerPrefetch executor
+2019-09-25 00:38:37,427 INFO c.a.s.j.SQSSession [DefaultMessageListenerContainer-1] Shutting down SessionCallBackScheduler executor
+2019-09-25 00:38:37,431 INFO c.a.s.j.SQSMessageConsumer [Thread-2] Shutting down ConsumerPrefetch executor
+2019-09-25 00:38:37,433 INFO c.a.s.j.SQSSession [Thread-2] Shutting down SessionCallBackScheduler executor
